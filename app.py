@@ -37,9 +37,8 @@ def load_data_and_model():
 # calling function
 df, vectorizer, tfidf_matrix = load_data_and_model()
 
-"""
-UI conf
-"""
+# UI conf
+
 query = st.text_input("Enter the keyword: ")
 top_n = st.number_input("Result maximum limit: ", min_value=1, value=10, step=1)
 

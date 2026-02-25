@@ -1,4 +1,8 @@
 # SimpleQuranSE
+
+> [!NOTE]
+> Deployment: https://simplequranse-zeynthedev.streamlit.app/
+
 # 📖 Simple Quran Search Engine
 
 A simple, interactive web-based search engine for the Quran, built using Python and **Streamlit**. This project utilizes the **Vector Space Model (VSM)** in Information Retrieval to find the most relevant Ayahs based on user text queries.
