@@ -68,7 +68,7 @@ if query:
     # count total similarity matches found, either can be shown or not
     total_matches = (sim_scores > 0).sum()
 
-    st.write(f"Found **{total_matches}** matching ayat!\nShowing top {len(found)} results for: **'{query}'** (Total matches: {total_matches})")
+    st.success(f"Found **{total_matches}** matching ayat!\nShowing top {len(found)} results for: **'{query}'** (Total matches: {total_matches})")
 
     st.dataframe(
         df_found,
