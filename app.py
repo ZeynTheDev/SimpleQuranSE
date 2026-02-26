@@ -64,7 +64,11 @@ if query:
   # show result logic
   if found:
     df_found = pd.DataFrame(found)
-    st.write(f"Showing top result for: **'{query}'**")
+
+    # count total similarity matches found, either can be shown or not
+    total_matches = (sim_scores > 0).sum()
+
+    st.write(f"Found **{total_matches}** matching ayat!\nShowing top {len(found)} results for: **'{query}'** (Total matches: {total_matches})")
 
     st.dataframe(
         df_found,

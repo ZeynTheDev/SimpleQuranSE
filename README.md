@@ -30,7 +30,7 @@ If you want to run this application on your local machine (or WSL), follow these
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/ZeynTheDev/SimpleQuranSE.git](https://github.com/ZeynTheDev/SimpleQuranSE.git)
+git clone https://github.com/ZeynTheDev/SimpleQuranSE.git
 cd SimpleQuranSE
 ```
 **2. Create a virtual environment (Recommended)**
