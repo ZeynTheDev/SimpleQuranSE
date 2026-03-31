@@ -22,7 +22,7 @@ Unlike exact-match search engines (Boolean Retrieval), this app uses Natural Lan
 * **Frontend/Framework:** Streamlit
 * **Data Manipulation:** Pandas
 * **Machine Learning/NLP:** Scikit-learn
-* **Dataset:** English Translation of the Quran (Yusuf Ali) dynamically fetched from [Tanzil.net](https://tanzil.net).
+* **Dataset:** English-Bahasa Indonesia Translations of the Quran (Yusuf Ali/Kemenag RI) dynamically fetched from [Tanzil.net](https://tanzil.net).
 
 ## 🚀 How to Run Locally
 
@@ -51,4 +51,6 @@ streamlit run app.py  # Replace 'app.py' with your actual python file name
 This project is open-source and available under the MIT License.
 
 ## ✍️ Dev Note
-So, currently I used TF-IDF and vectorization, but that's not stopping me from improving this engine for better result and algorithm processing. Maybe later we'll add another feature or even wipe out tf-idf and vectorization then changing it all with a new algorithm? Dunno. Let's just wait.
+Bahasa Indonesia support was released!
+
+**Note: Sorry, today I have no mood to chitchat as usual. Something bad occured on my IRL so sorry.*
