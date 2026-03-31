@@ -37,9 +37,10 @@ def load_data_and_model():
 # calling function
 df, vectorizer, tfidf_matrix = load_data_and_model()
 
-"""
-Old UI conf
-"""
+# """
+# Old UI conf
+# """
+
 # query = st.text_input("Enter the keyword: ")
 # top_n = st.number_input("Result maximum limit: ", min_value=1, value=10, step=1)
 
@@ -82,9 +83,10 @@ Old UI conf
 #   else:
 #     st.warning("The matches ayat with the keyword wasn't found!\nTry another or more universal keyword")
 
-"""
-New UI conf
-"""
+# """
+# New UI conf
+# """
+
 with st.form(key='search_form'):
     # Dividing layout as 2 columns (3:1)
     col1, col2 = st.columns([3, 1])
